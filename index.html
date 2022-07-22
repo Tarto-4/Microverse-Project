@@ -1,29 +1,75 @@
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="styles.css"> 
-    <header id="header">
-            <div class="logo">
-              <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="original trombones logo">
-            </div>
-    
-            <nav id="nav-bar">
-              <ul>
-                <li><a class="nav-link" href="#features">Features</a></li>
-                <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
-                <li><a class="nav-link" href="#pricing">Pricing</a></li>
-              </ul>
-            </nav>
-            <video id="video" src="_blank">
-          </header>
-          <section id="hero">
-            <h2>Handcrafted, home-made masterpieces</h2>
-            <form id="form" action="https://www.freecodecamp.com/email-submit">
-              <input name="email" id="email" type="email" placeholder="Enter your email address" required="">
-              <input id="submit" type="submit" value="Get Started" class="btn">
-            </form>
-          </section>
-</head>
-<body>
-    
-</body>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <img
+            id="header-img"
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+            alt="original trombones logo"
+          />
+        </div>
+
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="container"></div>
+
+      <section id="hero">
+        <h2>Great Artwork Pieces</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <input id="submit" type="submit" value="Get Started" class="btn" />
+        </form>
+      </section>
+        <section id="how-it-works">
+          <iframe
+            id="video"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section id="pricing">
+          <div class="product" id="tenor">
+            <div class="level">Tenor Trombone</div>
+            
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="bass">
+            <div class="level">Bass Trombone</div>
+            <h2>$900</h2>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="valve">
+            <div class="level">Valve Trombone</div>
+            
+            <button class="btn">Select</button>
+          </div>
+        </section>
+        <footer>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>        </footer>
+      </div>
+    </div>
+  </body>
 </html>
